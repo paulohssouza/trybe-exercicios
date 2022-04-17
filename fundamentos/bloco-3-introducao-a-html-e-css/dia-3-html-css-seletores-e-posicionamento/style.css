@@ -1,15 +1,33 @@
-h1 p {
-    text-align: center;
+div:hover{
+    border: solid black 5px;
 }
 
-li:hover {
+:nth-child(3) h3{
     background-color: red;
+    color: black;
 }
 
-li:active{
+:nth-child(4) h3{
+    background-color: green;
+    color: yellow;
+}
+
+:nth-child(5) h3{
+    background-color: rgb(248, 82, 4);
+    height: 200px;
+    color: blueviolet;
+}
+
+:nth-child(6) h3{
+    background-color: rgb(2, 58, 2);
     color: white;
 }
 
-ol ul{
-    list-style: none;
+:nth-child(7) h3{
+    background-color: rgb(139, 218, 139);
+    color: blue;
+}
+
+h3:nth-of-type(2n+1){
+    font-style: italic;
 }
