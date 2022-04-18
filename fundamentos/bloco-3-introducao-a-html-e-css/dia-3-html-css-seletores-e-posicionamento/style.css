@@ -1,33 +1,35 @@
-div:hover{
-    border: solid black 5px;
+ol li:nth-child(2n){
+    color: green;
 }
 
-:nth-child(3) h3{
-    background-color: red;
-    color: black;
+ol li:nth-child(2n+1){
+    text-transform: uppercase;
 }
 
-:nth-child(4) h3{
-    background-color: green;
-    color: yellow;
+ol li{
+    background-color: yellow;
 }
 
-:nth-child(5) h3{
-    background-color: rgb(248, 82, 4);
-    height: 200px;
-    color: blueviolet;
+h1,h2,h3{
+    color: red;
 }
 
-:nth-child(6) h3{
-    background-color: rgb(2, 58, 2);
-    color: white;
+h1,h2,h3:target i{
+    font-size: 40px;
+    border: 1px solid black;
 }
 
-:nth-child(7) h3{
-    background-color: rgb(139, 218, 139);
+li{
+    font-size: 20px;
+}
+
+li:target i{
+    font-weight: bold;
+}
+
+ul.programacao li:nth-child(-n+3){
     color: blue;
 }
 
-h3:nth-of-type(2n+1){
-    font-style: italic;
-}
+
+
